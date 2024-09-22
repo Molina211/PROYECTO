@@ -8,7 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
-  autor1:any = {nombres:'Jhon Sebatian', apellidos:'Molina Fierro'}
-  autor2:any = {nombres:'Brayan Smith', apellidos:'Bedoya Montealegre'}
-  autor3:any = {nombres:'Programacion 3 Grupo 2 - Corhuila'}
+  autor:any = {nombres:'Jhon Molina, Brayan Smith', apellidos:'programacion 3, grupo 2-corhuila'}
 }

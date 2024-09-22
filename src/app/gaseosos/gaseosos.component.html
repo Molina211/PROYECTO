@@ -1,0 +1,13 @@
+<div class="card-container" *ngFor="let planetas of gaseosos">
+    <div class="card">
+      <div class="card-image">
+        <img src="{{planeta.url}}" alt="Imagen 1">
+      </div>
+      <div class="card-content">
+        <h3>{{planeta.nombre}}</h3>
+        <p>Diametro: {{planeta.diametro}}</p>
+        <p>Distancia al sol: {{planeta.distancia_sol}}</p>
+        <p>Lunas: {{planeta.lunas}}</p>
+        <p>Tipo: {{planeta.tipo}}</p>
+      </div>
+    </div>
